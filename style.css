@@ -104,7 +104,8 @@ button:hover{
 #mensagge{
     margin-top: 1rem;
     font-size: 1.5rem;
-    color: hsl(354, 94%, 49%);
+    color: hsl(354, 90%, 47%);
+    background-color: hsl(353, 82%, 85%);
 }
 
 
