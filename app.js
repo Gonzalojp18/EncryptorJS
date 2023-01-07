@@ -71,5 +71,11 @@ function clear(){
 }
 
 
+/* that function doesn't allow enter MAY nad symbol */
+textarea.addEventListener("input", () => {
+    textarea.value = textarea.value.normalize("NFD").replace(/[^a-zA-Z 0-9.]+/g,'').toLowerCase()
+});
+
+
 
 
